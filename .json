@@ -1,0 +1,179 @@
+{
+    
+    
+    
+    "id": "3b604fab-9d06-46dc-ba0d-1ba6a90e3f32",
+    "short_desc": "Describoing appp",
+    "name": "Nome",
+    "description": null,
+    "version": null,
+    "custome_attributes": null,
+    "user_id": 1,
+    "created_at": "2022-10-18T16:42:37.000000Z",
+    "updated_at": "2022-10-18T16:42:37.000000Z",
+
+
+
+    "collections": [
+        {
+            "id": "04d65e65-cfd7-4b55-99e3-458f7298d335",
+            "name": "FSE",
+            "application_id": "3b604fab-9d06-46dc-ba0d-1ba6a90e3f32",
+            "settings": {
+                "fields": [
+                    {
+                        "name": "Nome",
+                        "type": "text",
+                        "rules": [
+                            "required",
+                            "string"
+                        ],
+                        "handle": "nome",
+                        "hidden": false,
+                        "position": 1,
+                        "placeholder": ""
+                    },
+                    {
+                        "name": "asas",
+                        "type": "single_select",
+                        "rules": [
+                            "string"
+                        ],
+                        "handle": "asas",
+                        "hidden": false,
+                        "options": [],
+                        "position": 2,
+                        "placeholder": ""
+                    },
+                    {
+                        "name": "Super Human",
+                        "type": "multiple_select",
+                        "limit": 150,
+                        "rules": [
+                            "timestamp"
+                        ],
+                        "handle": "super_human",
+                        "hidden": false,
+                        "options": [],
+                        "position": 3,
+                        "placeholder": ""
+                    },
+                    {
+                        "name": "asas",
+                        "type": "single_select",
+                        "rules": [
+                            "timestamp"
+                        ],
+                        "handle": "asas",
+                        "hidden": false,
+                        "options": [],
+                        "position": 4,
+                        "placeholder": ""
+                    },
+                    {
+                        "name": "fufas",
+                        "type": "multiple_select",
+                        "limit": 150,
+                        "rules": [
+                            "required"
+                        ],
+                        "handle": "fufas",
+                        "hidden": false,
+                        "options": [],
+                        "position": 5,
+                        "placeholder": ""
+                    },
+                    {
+                        "name": "pitokas",
+                        "type": "single_select",
+                        "rules": [],
+                        "handle": "pitokas",
+                        "hidden": false,
+                        "options": [],
+                        "position": 6,
+                        "placeholder": ""
+                    }
+                ]
+            },
+            "created_at": "2022-10-18T16:43:53.000000Z",
+            "updated_at": "2022-10-27T19:14:34.000000Z",
+            "parsed_settings": {
+                "fields": [
+                    {
+                        "name": "Nome",
+                        "rules": [
+                            "required",
+                            "string"
+                        ],
+                        "hidden": false,
+                        "type": "text",
+                        "placeholder": "",
+                        "position": 1,
+                        "handle": "nome"
+                    },
+                    {
+                        "name": "asas",
+                        "rules": [
+                            "string"
+                        ],
+                        "hidden": false,
+                        "type": "single_select",
+                        "placeholder": "",
+                        "position": 2,
+                        "handle": "asas",
+                        "options": []
+                    },
+                    {
+                        "name": "Super Human",
+                        "rules": [
+                            "timestamp"
+                        ],
+                        "hidden": false,
+                        "type": "multiple_select",
+                        "placeholder": "",
+                        "position": 3,
+                        "handle": "super_human",
+                        "options": [],
+                        "limit": 150
+                    },
+                    {
+                        "name": "asas",
+                        "rules": [
+                            "timestamp"
+                        ],
+                        "hidden": false,
+                        "type": "single_select",
+                        "placeholder": "",
+                        "position": 4,
+                        "handle": "asas",
+                        "options": []
+                    },
+                    {
+                        "name": "fufas",
+                        "rules": [
+                            "required"
+                        ],
+                        "hidden": false,
+                        "type": "multiple_select",
+                        "placeholder": "",
+                        "position": 5,
+                        "handle": "fufas",
+                        "options": [],
+                        "limit": 150
+                    },
+                    {
+                        "name": "pitokas",
+                        "rules": [],
+                        "hidden": false,
+                        "type": "single_select",
+                        "placeholder": "",
+                        "position": 6,
+                        "handle": "pitokas",
+                        "options": []
+                    }
+                ]
+            },
+            "entries": []
+        }
+    ]
+}
