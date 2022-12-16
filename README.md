@@ -1,6 +1,6 @@
 # sibcdc
 
-A new Flutter project.
+Data collection app. responsable to collect data from researchs
 
 ## Getting Started
 
